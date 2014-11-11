@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ampersand Collaborative | Order Form</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="../assets/css/ionicons.min.css" />
+  <link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="../assets/css/styles.min.css" />
+</head>
+<body>
+  <header class="light">
+    <div class="container">
+      <a href="/" class="logo">
+        <strong>&amp;</strong>collaborative
+      </a>
+      <ul>
+        <li data-menuanchor="hello" class="active">
+          <a href="/">
+            about</a>
+          </li>
+          <li data-menuanchor="features">
+            <a href="/#features">
+              features</a>
+            </li>
+            <li class="buy-now">
+              <a href="/checkout">
+                buy now
+              </a>
+            </li>
+          </ul>
+          <ul class="social-media">
+            <li><a href=""><i class="icon ion-social-facebook"></i><span>Facebook</span></a></li>
+            <li><a href=""><i class="icon ion-social-twitter"></i><span>Twitter</span></a></li>
+            <li><a href=""><i class="icon ion-social-instagram"></i><span>Instagram</span></a></li>
+          </ul>
+        </div>
+      </header>
+
+      <div class="content container">
+        <div class="wrap">
+          <div class="product panel">
+            <label class="step">Step 1</label>
+            <h1>Product</h1>
+            <div class="brown image"></div>
+            <label>Color</label>
+            <div class="white color" data-color="white" data-cost="250"><input type="radio" /><span>White</span></div>
+            <div class="black color" data-color="black" data-cost="275"><input type="radio" /><span>Black</span></div>
+            <div class="selected brown color" data-color="brown" data-cost="275"><input type="radio" /><span>Brown</span></div>
+            <label>Quantity</label>
+            <input type="number" class="quantity" min="1" value="1" />
+            <label>cost</label>
+            <div class="cost">Php 275.00</div>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+
+          <div class="customer panel">
+            <label class="step">Step 2</label>
+            <h1>Customer Info</h1>
+            <label>Name</label>
+            <input type="text" id="name" />
+            <label>E-mail</label>
+            <input type="email" id="email" />
+            <label>Contact No.</label>
+            <input type="text" id="contact" />
+            <label>Address</label>
+            <input type="text" id="address" />
+            <label>Within Metro Manila?</label>
+            <div>
+              <input type="radio" value="Yes" checked="checked" name="withinMetro"><span>Yes</span>
+              <input type="radio" value="No" name="withinMetro"><span>No</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cart panel">
+          <label class="step">Step 3</label>
+          <h1>Cart</h1>
+
+          <div class="items">
+            <div class="mute">There are no items.</div>
+          </div>
+
+          <div class="cost">
+            <label>Subtotal</label>
+            <div class="subtotal price">Php 275.00</div>
+            <label>Shipping Fee</label>
+            <div class="shipping price">Php 60.00</div>
+
+            <label class="total">Total</label>
+            <div class="total price">Php 335.00</div>
+          </div>
+
+          <button class="disabled check-out">Check out Now</button>
+        </div>
+
+        <div class="thanks panel">
+          <h1>Thank you!</h1>
+          <div>We've sent something to your e-mail! Kindly check it within 24 hours.</div>
+          <div>Follow our social channels for more info. Have a nice day. :)</div>
+        </div>
+      </div>
+
+        <!--  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>  -->
+        <script src="../assets/js/jquery.min.js"></script>
+        <!-- // <script src="../assets/js/imagesloaded.pkgd.min.js"></script> -->
+        <script type="text/javascript" src="../assets/js/core.min.js"></script>
+      </body>
+      </html>
